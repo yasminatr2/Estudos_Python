@@ -33,11 +33,7 @@ import emoji
 #JUNÇÃO
 #'-'.join(frase)= junta os elementos da frase e coloca o '-'
 
-#frase='curso em video python '
-#print(emoji.emojize('  :red_heart:   '.join(frase)))
+frase='Jesus loves you '
+print(emoji.emojize(' :red_heart:  '.join(frase)))
 
-#DESAFIO 022
-nome=str(input('Qual o seu nome?: ')).strip()
-print(f'Este é o seu nome com letras maiusculas: {nome.upper()}')
-print(f'Este é o seu nome com todas as letras minusculas: {nome.lower()}')
-print(f'Seu nome tem: {len(nome)} letras')
+
